@@ -17,42 +17,78 @@
     <header></header>
     <main class="row justify-content-center">
       <h2 class="col-12 text-center">Add Asset</h2>
-      <div class="block align-center">
-        <form action="" class="form-row text-info">
-          <div class="form-group col-lg-3">
-            <label for="asset_id">Asset Tag/ID:</label>
-            <input type="text" id="asset_id" class="form-control-sm" />
+      <div class="block justify-content-center bg-light border-round">
+        <form action="" class="text-info row">
+          <div class="form-group col-6">
+            <label for="asset_id" class="col-5">Asset Tag/ID:</label>
+            <input type="text" id="asset_id" class="form-control-sm col-5" />
           </div>
-          <div class="form-group col-lg-3">
-            <label for="serial_no">Serial Number:</label>
-            <input type="text" id="serial_no" class="form-control-sm" />
+          <div class="form-group col-6">
+            <label for="serial_no" class="col-5">Serial No:</label>
+            <input type="text" id="serial_no" class="form-control-sm col-5" />
           </div>
-          <div class="form-group col-lg-3">
-            <label for="ticket_no">Ticket Number:</label>
-            <input type="text" id="ticket_no" class="form-control-sm" />
+          <div class="form-group col-6">
+            <label for="ticket_no" class="col-5">Ticket No:</label>
+            <input type="text" id="ticket_no" class="form-control-sm col-5" />
           </div>
-          <div class="form-group col-lg-3">
-            <label for="description">Asset Description:</label>
-            <input type="text" id="description" class="form-control-sm" />
+          <div class="form-group col-6">
+            <label for="description" class="col-5">Description:</label>
+            <input type="text" id="description" class="form-control-sm col-5" />
           </div>
-          <div class="form-group col-lg-4 row">
-            <select name="" id="" class="custom-select col-10">
+          <div class="form-group col-4">
+            <select name="" id="" class="custom-select">
+              <option value="">--Status--</option>
+            </select>
+          </div>
+          <div class="form-group col-4">
+            <select name="" id="" class="custom-select">
               <option value="">--Site--</option>
             </select>
           </div>
-          <div class="form-group col-lg-4">
+          <div class="form-group col-4">
+            <select name="" id="" class="custom-select">
+              <option value="">--Floor--</option>
+            </select>
+          </div>
+          <div class="form-group col-4">
+            <select name="" id="" class="custom-select">
+              <option value="">--Room--</option>
+            </select>
+          </div>
+          <div class="form-group col-4">
+            <select name="" id="" class="custom-select">
+              <option value="">--Bay--</option>
+            </select>
+          </div>
+          <div class="form-group col-4">
+            <select name="" id="" class="custom-select">
+              <option value="">--Workstation--</option>
+            </select>
+          </div>
+          <div class="form-group col-6">
             <select name="" id="" class="custom-select">
               <option value="">--Type--</option>
             </select>
           </div>
-          <div class="form-group col-lg-4">
+          <div class="form-group col-6">
             <select name="" id="" class="custom-select">
               <option value="">--Financier--</option>
             </select>
           </div>
-          <div class="form-group col-lg-4">
+          <div class="form-group col-4">
             <label for="supplier_price">Supplier Price:</label>
             <input type="number" id="supplier_price" class="form-control-sm" />
+          </div>
+          <div class="form-group col-4">
+            <label for="date_received">Date Received:</label>
+            <input type="date" id="date_received" class="form-control-sm" />
+          </div>
+          <div class="form-group col-4">
+            <label for="date_allocated">Date Allocated:</label>
+            <input type="date" id="date_allocated" class="form-control-sm" />
+          </div>
+          <div class="row justify-content-end col-12">
+            <button class="btn btn-warning">Submit</button>
           </div>
         </form>
       </div>
